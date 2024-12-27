@@ -1,9 +1,8 @@
 <template>
-  <div class="profile">
-    <h1>This is a Profile page</h1>
-  </div>
+  <h1>This is a Profile page</h1>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <style scoped></style>
