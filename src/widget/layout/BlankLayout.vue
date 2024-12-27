@@ -6,4 +6,8 @@
 
 <script setup lang="ts"></script>
 
-<style scoped></style>
+<style scoped>
+main {
+  justify-content: center !important;
+}
+</style>
