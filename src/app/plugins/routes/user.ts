@@ -1,18 +1,23 @@
-import DefaultLayout from "@/widget/layout/DefaultLayout.vue";
+import BlankLayout from "@/widget/layout/BlankLayout.vue";
 
 export default {
   path: "/user",
-  meta: { layout: DefaultLayout },
+  meta: { layout: BlankLayout },
   children: [
     {
-      path: "/profile",
-      name: "profile",
-      component: () => import(/* webpackChunkName: "User" */ "@/pages/User/ProfileView.vue"),
+      path: "",
+      name: "user-default",
+      component: () => import(/* webpackChunkName: "user" */ "@/pages/user/DefaultView.vue"),
     },
     {
-      path: "/settings",
-      name: "settings",
-      component: () => import(/* webpackChunkName: "User" */ "@/pages/User/SettingsView.vue"),
+      path: "profile",
+      name: "user-profile",
+      component: () => import(/* webpackChunkName: "user" */ "@/pages/user/ProfileView.vue"),
+    },
+    {
+      path: "settings",
+      name: "user-settings",
+      component: () => import(/* webpackChunkName: "user" */ "@/pages/user/SettingsView.vue"),
     },
   ],
 }
