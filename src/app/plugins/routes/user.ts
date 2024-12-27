@@ -1,4 +1,6 @@
-import BlankLayout from "@/widget/layout/BlankLayout.vue";
+import { defineAsyncComponent } from "vue";
+
+const BlankLayout = defineAsyncComponent(() => import("@/widget/layout/BlankLayout.vue"));
 
 export default {
   path: "/user",
