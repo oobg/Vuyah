@@ -6,6 +6,7 @@ import user from "./user";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  strict: true,
   routes: [
     {
       path: "/",
@@ -16,5 +17,15 @@ const router = createRouter({
     user,
   ],
 })
+
+// Remove trailing slashes from all routes (e.g., /user/ becomes /user)
+router.beforeEach((to, from, next) => {
+  if (to.path !== "/" && to.path.endsWith("/")) {
+    const path = to.path.slice(0, -1);
+    next({ path, query: to.query, hash: to.hash });
+  } else {
+    next();
+  }
+});
 
 export default router;
