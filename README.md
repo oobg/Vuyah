@@ -4,6 +4,11 @@
 Built on a flexible and scalable structure, it accelerates development and simplifies maintenance.
 Start building creative and efficient applications with **Vuyah** today!
 
+Refer to the translated README at the links below
+
+- [README.md | English](/README.md)
+- [README.md | 한국어](/docs/ko/README.md)
+
 ## ✨ Features
 
 ### 1. Latest Technology Stack
