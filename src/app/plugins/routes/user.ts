@@ -1,10 +1,10 @@
 import { defineAsyncComponent } from "vue";
 
-const BlankLayout = defineAsyncComponent(() => import("@/widget/layout/BlankLayout.vue"));
-
 export default {
   path: "/user",
-  meta: { layout: BlankLayout },
+  meta: {
+    layout: defineAsyncComponent(() => import("@/widget/layout/BlankLayout.vue")),
+  },
   children: [
     {
       path: "",
