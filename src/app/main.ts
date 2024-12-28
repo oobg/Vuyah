@@ -1,10 +1,10 @@
 import "@/app/styles/main.css";
 
-import { createApp } from "vue";
-import App from "@/app/App.vue";
+import { createApp, type App } from "vue";
+import EntryPoint from "@/app/App.vue";
 import usePlugins from "@/app/plugins";
 
-const app = createApp(App);
+const app: App<Element> = createApp(EntryPoint);
 
 usePlugins(app);
 

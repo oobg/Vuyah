@@ -27,7 +27,7 @@ router.beforeEach((
   from: RouteLocationNormalizedLoadedGeneric,
   next: NavigationGuardNext): void => {
   if (to.path !== "/" && to.path.endsWith("/")) {
-    const path = to.path.slice(0, -1);
+    const path: string = to.path.slice(0, -1);
     next({ path, query: to.query, hash: to.hash });
   } else {
     next();
