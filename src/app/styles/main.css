@@ -20,3 +20,8 @@
   align-items: center;
   justify-content: start;
 }
+
+#app header,
+#app footer {
+  width: 100%;
+}
