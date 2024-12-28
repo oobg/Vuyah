@@ -22,4 +22,4 @@ export default {
       component: () => import(/* webpackChunkName: "user" */ "@/pages/user/SettingsView.vue"),
     },
   ],
-}
+};
