@@ -3,7 +3,7 @@ import { defineAsyncComponent } from "vue";
 export default {
   path: "/user",
   meta: {
-    layout: defineAsyncComponent(() => import("@/widget/layout/BlankLayout.vue")),
+    layout: defineAsyncComponent(() => import("@/widget/layout/EmptyLayout.vue")),
   },
   children: [
     {
