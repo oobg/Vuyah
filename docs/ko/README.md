@@ -7,7 +7,10 @@
 README 번역본은 아래 주소를 참고하세요.
 
 - [README.md | English](/README.md)
-- [README.md | 한국어](/docs/ko/README.md)
+
+현재 프로젝트에 대한 자세한 정보는 아래 블로그 내용을 참고하세요.
+
+- [[post] 프로젝트 구조 만들기 | Vue.js](https://blog.osb.im/posts/vuejs/0)
 
 ## ✨ 특징
 

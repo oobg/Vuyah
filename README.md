@@ -6,8 +6,11 @@ Start building creative and efficient applications with **Vuyah** today!
 
 Refer to the translated README at the links below
 
-- [README.md | English](/README.md)
 - [README.md | 한국어](/docs/ko/README.md)
+
+For detailed information about the current project, please refer to the blog post below.
+
+- [[post] 프로젝트 구조 만들기 | Vue.js](https://blog.osb.im/posts/vuejs/0)
 
 ## ✨ Features
 
