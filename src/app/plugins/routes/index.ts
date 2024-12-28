@@ -1,4 +1,3 @@
-import { defineAsyncComponent } from "vue";
 import {
   createRouter,
   createWebHistory,
@@ -6,7 +5,7 @@ import {
   type RouteLocationNormalizedLoadedGeneric,
   type Router
 } from "vue-router";
-
+import DefaultView from "@/pages/DefaultView.vue";
 import user from "./user";
 
 const router: Router = createRouter({
@@ -16,7 +15,7 @@ const router: Router = createRouter({
     {
       path: "/",
       name: "home",
-      component: defineAsyncComponent(() => import("@/pages/DefaultView.vue")),
+      component: DefaultView,
     },
     user,
   ],
