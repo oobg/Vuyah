@@ -6,13 +6,13 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  id: string,
-  type: string,
-  placeholder: string,
-}>();
-
 const model = defineModel();
+
+defineProps<{
+  id: string;
+  type: string;
+  placeholder: string;
+}>();
 </script>
 
 <style scoped>

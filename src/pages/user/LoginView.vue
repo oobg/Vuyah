@@ -17,9 +17,9 @@
 </template>
 
 <script setup lang="ts">
-import VuyahButton from '@/shared/ui/VuyahButton.vue'
-import VuyahContainer from '@/shared/ui/VuyahContainer.vue'
-import VuyahInput from '@/shared/ui/VuyahInput.vue'
+import VuyahButton from "@/shared/ui/VuyahButton.vue";
+import VuyahContainer from "@/shared/ui/VuyahContainer.vue";
+import VuyahInput from "@/shared/ui/VuyahInput.vue";
 </script>
 
 <style scoped>
