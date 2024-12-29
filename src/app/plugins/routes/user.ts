@@ -12,6 +12,11 @@ export default {
       component: () => import(/* webpackChunkName: "user" */ "@/pages/user/DefaultView.vue"),
     },
     {
+      path: "login",
+      name: "user-login",
+      component: () => import(/* webpackChunkName: "user" */ "@/pages/user/LoginView.vue"),
+    },
+    {
       path: "profile",
       name: "user-profile",
       component: () => import(/* webpackChunkName: "user" */ "@/pages/user/ProfileView.vue"),
