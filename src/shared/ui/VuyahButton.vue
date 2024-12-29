@@ -1,11 +1,12 @@
 <template>
-  <Button :type="type">{{ text }}</Button>
+  <Button :type="type">
+    <slot />
+  </Button>
 </template>
 
 <script setup lang="ts">
 defineProps<{
   type: "submit" | "button";
-  text: string;
 }>();
 </script>
 

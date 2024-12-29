@@ -6,8 +6,8 @@
       <vuyah-input id="user-name" placeholder="Username" type="text" />
       <vuyah-input id="user-password" placeholder="Password" type="password" />
       <hr />
-      <vuyah-button type="submit" text="Login" />
-      <vuyah-button type="button" text="Sign up" />
+      <vuyah-button type="submit">Login</vuyah-button>
+      <vuyah-button type="button">Sign up</vuyah-button>
       <div class="text-button-container">
         <div>Forgot username?</div>
         <div>Forgot password?</div>
