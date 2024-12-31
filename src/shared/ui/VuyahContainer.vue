@@ -22,8 +22,11 @@
   box-shadow: var(--color-primary) 0 0 1em;
 
   padding: 1rem;
+  margin: 1rem;
 
   min-width: 375px;
+
+  overflow: auto;
 
   @media (min-width: 576px) {
     max-width: 540px;
